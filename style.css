@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.finn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #2CB3F3;
+    width: 70%;
+    height: 40vw;
+}
+.text{
+    padding: 20px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.text h1{
+    font-size:30px;
+}
+.text p{
+    font-size: 20px;
+}
+.finn-touca{
+    width: 50%;
+    background: #fff;
+    height: 60%;
+    position: relative;
+    top: 40px;
+    border-radius: 35px 35px 0px 0px;
+}
+.finn-rosto{
+    width: 80%;
+    height: 80%;
+    background:#FFE1C9;
+    border-radius: 50%;
+    position: relative;
+    top: 35px;
+    left: 45px;
+}
+.olho-esquerdo{
+    width: 35px;
+    height: 35px;
+    background: #000;
+    position: relative;
+    left: 76px;
+    top: 64px;
+    border-radius: 50%;
+}
+.olho-direito{
+    width: 35px;
+    height: 35px;
+    background: #000;
+    position: relative;
+    left: 260px;
+    border-radius: 50%;
+    top: 28px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 90px;
+    top: 80px;
+}
+.inputs input{
+    width: 200px;
+    height: 30px;
+}
